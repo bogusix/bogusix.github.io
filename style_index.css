@@ -1,0 +1,231 @@
+/*-------------------------------------------------------BODY--------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Jura');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Jura', sans-serif;
+    font-size: 2vw;
+    color: #63544f;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+main
+{
+    color: black;
+    padding-left: 12%;
+    padding-right: 12%;
+    line-height: 190%;
+    font-size: 2vw;
+    
+}
+
+/*-------------------------------------------------------HEADER--------------------------------------------------------*/
+
+header
+{
+    height: 6vw;
+    background-color: #C0D9D9;
+    margin: auto 0;
+    border-bottom: 3px solid #63544f;
+    position: fixed;
+    width: 100%;
+}
+
+
+img
+{
+    width: 25%;
+}
+
+figure
+{
+    float: left;
+    width: 30%;
+    margin-top: 0.8vw;
+}
+
+.aparat_head
+{
+    padding-left: 35%;
+}
+
+.menu_linki
+{
+    text-decoration: none;
+    color: #63544f;
+    animation-name: linki_animacja_back;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    font-size: 1.2vw;
+}
+
+.menu_linki:hover
+{
+    animation-name: linki_animacja;
+    animation-duration: 0.3;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+nav
+{
+    width: 70%;
+    float: right;
+    margin-top: 1.5%;
+    text-align: left;
+}
+
+.nav_divs
+{
+    float: right;
+    width: 15%;
+}
+
+i
+{
+    margin-right: 5%;;
+}
+
+@keyframes linki_animacja
+{
+    0%{font-size: 1.2vw; color: #63544f;}
+    50%{font-size: 1.25vw; color: #63544f;}
+    100%{font-size: 1.3vw; color: #e3decb;}
+}
+@keyframes linki_animacja_back
+{
+    0%{font-size: 1.3vw; color: #e3decb;}
+    50%{font-size: 1.25vw; color: #63544f;}
+    100%{font-size: 1.2vw; color: #63544f;}
+}
+
+/*-------------------------------------------------------MAIN--------------------------------------------------------*/
+
+.tytul_div
+{
+    background-image: url(grafiki/623901_canon-camera-photography-wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 45vw;
+    padding-top: 8vw;
+    border-bottom: 0.7vw solid #C0D9D9;
+}
+
+.tytul_napis
+{
+    margin-top: 16vw;
+    margin-bottom: 4vw;
+    font-size: 6.8vw;
+    text-align: center;
+    color: #C0D9Df;
+    text-shadow: 2px 2px 2px black;
+    text-shadow: -2px 2px 2px black;
+    font-weight: bold;
+}
+
+.podtytul
+{
+    font-size: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    clear: both;
+    color: #63544f;
+    text-align: center;
+}
+
+hr
+{
+    background-color: #C0D9D9;
+    height: 0px;
+    border: 1px solid #C0D9D9;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 6vw; 
+    margin-bottom: 5vw; 
+}
+
+.kontakt
+{
+    width: 100%;
+    text-align: center;
+    
+}
+
+table
+{
+   
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.5vw;
+}
+
+.nazwa_pola
+{
+    text-align: right;
+    padding-right: 2vw;
+    width: 50%;
+}
+
+.pole
+{
+    text-align: left;
+    padding-left: 2vw;
+    width: 50%;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+}
+
+input
+{
+    width: 14vw;
+    height: 1.8vw;
+    border-radius: 8px;
+}
+
+textarea
+{
+    width: 14vw;
+    height: 7vw;
+    border-radius: 8px;
+}
+
+.numer
+{
+    padding-top: 0.3vw;
+    font-size: 1.2vw;
+}
+
+button
+{
+    border-radius: 5px;
+    width: 6vw;
+    height: 2vw;
+}
+
+footer
+{
+    font-size: 1.2vw;
+    margin-bottom: 4vw;
+    text-align: center;
+}
