@@ -78,12 +78,13 @@ figure
     font-size: 1.2vw;
 }
 
-.menu_linki:hover
+.menu_linki:
 {
     animation-name: linki_animacja;
     animation-duration: 0.3;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
+    cursor: pointer;
 }
 
 nav
@@ -277,6 +278,8 @@ footer
     animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+    cursor: pointer;
+    
     
 }
 
