@@ -1,0 +1,76 @@
+main{
+    padding-top: 20vh;
+}
+
+#email, #login, #password, #secondPassword{
+    box-sizing: border-box;
+    margin-top: 0px;
+    padding: 0px;
+    border: 1px solid black;
+    width: 370px;
+    height: 70px;
+    padding-left: 70px;
+    font-size: 15pt;
+    color: #585c8a;
+}
+
+#login, #password, #secondPassword{
+    border-top: 0; 
+}
+
+#email{
+    background: url(at-solid.svg) no-repeat scroll 15px 16px;
+    background-size: 30px;
+}
+
+#login{
+    background: url(user-solid.svg) no-repeat scroll 15px 16px;
+    background-size: 30px;
+}
+
+#password{
+    background: url(key-solid.svg) no-repeat scroll  15px 18px;
+    background-size: 30px;
+}
+
+#secondPassword{
+    background: url(redo-alt-solid.svg) no-repeat scroll  15px 18px;
+    background-size: 30px;
+}
+
+#subm{
+    margin-top: 5vh;
+    width: 370px;
+    height: 70px;
+    background-color: #585c8a;
+    font-size: 15pt;
+    color: white;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+    border: 0;
+}
+
+#subm:hover{
+    background-color: #46496e;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 5px 10px 0 rgba(0,0,0,0.19);
+    
+}
+
+
+.przycisk{
+    margin-top: 5vh;
+    width: 370px;
+    height: 70px;
+    background-color: #585c8a;
+    font-size: 15pt;
+    color: white;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+    border: 0;
+}
+
+.przycisk:hover{
+    background-color: #46496e;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 5px 10px 0 rgba(0,0,0,0.19);
+    
+}
