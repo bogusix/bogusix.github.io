@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top: 75px;
+    font-family: 'Cabin', sans-serif;
+}
+
+/*---------------------HEADER---------------------*/
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    box-sizing: border-box;
+    background-color: #910200;
+    padding-right: 6vw;
+    padding-left: 10vw;
+}
+
+.logo{
+    width: 40%;
+    float: left;
+    text-align: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.img_logo{
+   height: 55px;
+}
+
+/*----------------------NAV-----------------------*/
+
+#myNav{
+    width: 42%;
+    float: right;
+    padding-top: 23px;
+}
+
+.div_nav{
+    float: left;
+    width: 20%;
+    height: 55px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 17pt;
+}
+
+#menu_icon{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    display: none;
+    font-size: 20pt;
+    transition: transform 1s;
+    color:white;
+}
+
+#myNav2{
+    display: none;
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+    top:-351px;
+    right: 120px;
+    background-color: rgba(120,120,120,0.8);
+    transition: 1s all;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.div_nav2{
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+.menu_text{
+    float: left;
+    width: 50%;
+    text-align: right;
+    font-size: 16pt;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.menu_icon{
+    float: left;
+    width: 50%;
+    text-align: left;
+    font-size: 16pt;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.div_nav2:hover{
+    background-color: rgba(105,105,105,0.9);;
+}
+
+/*----------------------MAIN----------------------*/
+
+main{
+    width: 100%;
+    height: 92vh;
+    padding-left:10%;
+    padding-right:10%;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 100%;
+    height: 92vh;
+    padding-top: 18%;
+    box-sizing: border-box;
+    background-image: url(imgs/1bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 1s background-image;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.banner_text{
+    height: 5vw;
+    font-size: 5vw;
+}
+
+/*---------------------FOOTER---------------------*/
+
+footer{
+    width: 100%;
+    height: 9vh;
+    border: 1px solid black;
+    box-sizing: border-box;}
