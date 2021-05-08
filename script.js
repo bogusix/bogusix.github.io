@@ -1,20 +1,20 @@
 var slideElement = document.getElementById("slider");
 var caseElement = document.getElementById("case");
 slideElement.addEventListener("click", change);
-var isON=false;
-var music = new Audio('music.mp3');
+var czy_trwa_zabawa=false;
+var miod_na_uszy = new Audio('music.mp3');
 var disco_time;
 
 function change(){
-    if(isON==false){
-        slideElement.style.backgroundImage="url('niceguy.jpg')";
+    if(czy_trwa_zabawa==false){
+        slideElement.style.backgroundImage="url('someguy.gif')";
         caseElement.style.boxShadow="inset 0 0 50px #518f00";
         caseElement.style.backgroundColor="white";
         slideElement.style.marginLeft="48%";
         disco();
         disco_time = setInterval(disco, 540);
-        music.play();
-        isON=true;
+        miod_na_uszy.play();
+        czy_trwa_zabawa=true;
     }
     else{
         slideElement.style.backgroundImage="";
@@ -24,9 +24,9 @@ function change(){
         caseElement.style.backgroundColor="black";
         caseElement.style.boxShadow="inset 0 0 20px gray"
         black();
-        music.pause();
-        music.load();
-        isON=false;
+        miod_na_uszy.pause();
+        miod_na_uszy.load();
+        czy_trwa_zabawa=false;
     }
 }
 
