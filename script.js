@@ -7,7 +7,7 @@ var disco_time;
 
 function change(){
     if(isON==false){
-        slideElement.style.backgroundImage="url('someguy.gif')";
+        slideElement.style.backgroundImage="url("someguy.gif"), url("niceguy.jpg");";
         caseElement.style.boxShadow="inset 0 0 50px #518f00";
         caseElement.style.backgroundColor="white";
         slideElement.style.marginLeft="48%";
