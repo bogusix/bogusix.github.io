@@ -33,6 +33,10 @@ body{
     background-size: 100%;
 }
 
+.slider_in:hover{
+    coursor: pointer;
+}
+
 .square{
     display: inline;
     float: left;
